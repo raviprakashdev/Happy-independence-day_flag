@@ -1,0 +1,29 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    height: 33.33vh;
+    width: 100vw;
+}
+#orange,#white,#green{
+    height: 100%;
+}
+#orange{
+    background-color: orange;
+}
+#green{
+    background-color: green ;
+}
+#white{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: blue;
+    font-family: 'Shrikhand', cursive;
+    font-size: 300%;
+}
