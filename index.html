@@ -15,22 +15,29 @@
         <script src="js/typed.js" type="text/javascript"></script>
     <ul>
         <li><div id="orange"></div></li>
-        <li><div id="white"><h1 class="typef"></h1></div></li>
+        <li><div id="white">
+                <span id="typed" class="he"></span>
+                <div id="typed-strings">
+                        <p > Happy Independence Day</p>
+                        <p> From RAVI PRAKASH</p>
+                        <p id="w"><img width="220" alt="Spinning Ashoka Chakra" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Spinning_Ashoka_Chakra.gif"></p>;
+                </div>
+        </div>
+        </li>
         <li><div id="green"></div></li>
     </ul>
-
+     </div>
     <script src="js/typed.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    
-        var typed = new Typed(".typef", {
-      strings: ["Happy Independence Day ^1000","Happy Independence Day ^2000"],
-             
-            typeSpeed: 50,
-            backSpeed: 50,
-           
+         
+        <span id="typed" style="color: blue;" ></span>
+        <script>
+          var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
             loop: true,
-    });
-        
+            showCursor: false, 
+            typeSpeed: 90,
+            backSpeed: 90,
+          });
         </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="js/particles.js" type="text/javascript"></script>
